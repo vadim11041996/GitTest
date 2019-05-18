@@ -1,0 +1,11 @@
+.test{
+color:red;
+background: blue; 
+font-size: 50px; 
+border-top-left-radius: 0%;
+margin: 0;
+}
+
+.btn-color{
+    color:green;
+}

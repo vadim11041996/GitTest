@@ -1,18 +1,14 @@
-function sum (){
+function max(){
+    let array = [1, 2,-5, 10, -1];
+    let max = array[0];
 
-  const array = [3, 4, 5];
+    for (let i = 0; i <array.length; i++){
+        if (max < array[i]){
+            max = array[i];
+        }
 
-  let suma = 0;
+    }
 
-  for (let i = 0; i < array.length; i++){
-
-    suma += array[i];
-
-  }
-
-  console.log(suma);
-
+    return max;
 }
-
-
-sum ()
+console.log(max())

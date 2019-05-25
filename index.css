@@ -8,3 +8,12 @@ margin: 0;
 .btn-color{
     color:green;
 }
+
+.color-style {
+  color: greenyellow;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: 5px;
+  margin: 0px;
+}
+
+

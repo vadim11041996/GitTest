@@ -1,14 +1,27 @@
-function max(){
-    let array = [1, 2,-5, 10, -1];
-    let max = array[0];
+function countPositivesSumNegatives() {
+    if (input === null || input.length == 0 ){
+        return [];
+    }
+    
+    let input = [0, -3, -5, 6, 1, -2, 99, -2019, 67];
+    let numberOfPositiveElementsFromInput = 0;
+    let sumOfNegativeElementsFromInput = 0;
 
-    for (let i = 0; i <array.length; i++){
-        if (max < array[i]){
-            max = array[i];
+    for(let i = 0; i < input.length; i++){
+        if (input[i] > 0){
+            numberOfPositiveElementsFromInput++;
         }
-
     }
 
-    return max;
+    for(let j = 0; j < input.length; j++){
+        if (input[j] < 0){
+            sumOfNegativeElementsFromInput += input[j];
+
+        }
+    }
+
+   
+    return [numberOfPositiveElementsFromInput, sumOfNegativeElementsFromInput];
 }
-console.log(max())
+
+countPositivesSumNegatives()

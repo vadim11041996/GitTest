@@ -1,12 +1,22 @@
-function submitForm(){
-    if(5>6){
-        console.log('Mai mare');
-    } else {
-        console.log("Nu e mai mare");
-    }
+function main(){
+    const a = 0;
+    const b = -12;
 
-    
-    return 5>6 && 7 > 9 ? console.log('Mai mare') : console.log('Nu e mai mare');
+ if(a > b)
+     alert(sum(-45, 9));
+  else
+     alert(diferenta(4, -32));
+ 
+ 
+}
+main();
+
+function sum(x, y){
+
+    return x+y;
 }
 
-submitForm()
+function diferenta(x, y){
+
+    return x - y;
+}

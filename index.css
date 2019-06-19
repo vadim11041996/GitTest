@@ -1,12 +1,105 @@
-.colors{
-  background-color: #ffff33;
+.font{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.green{
-  color: green;
-  font-size: 30px;
+.background{
+background-color: rgb(26, 49, 36);
 }
 
-.addPadding {
+.header{
+  width: 80%;
+  background-color: black;
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+  padding:10px;
+  overflow: hidden;
+
+}
+
+.section{
+  width: 80%;
+  background-color:white;
+  margin-right: auto;
+  margin-left: auto; 
+  border-color: black;
+  border-style: solid;
+  border-width: 5px;
   padding: 5px;
+
 }
+
+.h1{
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+
+}
+
+.h2{
+  font-size: 1.6;
+}
+
+.hgroup{
+  width: 70;
+  float: left;
+
+}
+
+.h1Group{
+  padding-top: 0;
+  line-height: 1em;
+}
+
+.h2Group{
+  text-transform: uppercase;
+  font-size: 1.2em;
+  line-height: 1em;
+}
+
+.nav{
+  width: 30%;
+  float: right;
+}
+
+.navUl{
+  list-style-type: none;
+}
+
+.navLi{
+  float: left;
+  margin-right: 5px; 
+}
+
+.paragraph{
+  margin: 10px;
+}
+
+.img{
+  float: right;
+  margin: 0px 0px 10px 10px;
+  box-shadow: 3px 3px 5px 1px chocolate;
+}
+
+.aside{
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: .8cm;
+  background: #eeff99;
+  padding: 20px;
+  border: 1px solid #696;
+  border-radius: 20px;
+}
+
+.footer{
+  width: 80%;
+  background-color: black;
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+  height: 50px;
+  padding: 10px;
+}
+

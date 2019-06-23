@@ -1,22 +1,10 @@
-function main(){
-    const a = 0;
-    const b = -12;
+function substitute(){
+  let myValue = document.getElementById('myTextBox').value;   
 
- if(a > b)
-     alert(sum(-45, 9));
-  else
-     alert(diferenta(4, -32));
- 
- 
-}
-main();
-
-function sum(x, y){
-
-    return x+y;
-}
-
-function diferenta(x, y){
-
-    return x - y;
+  if (myValue.length == 0) {
+    alert('Please enter a real value in the text box!');
+    return;
+  }
+  let myTitle = document.getElementById('title');
+  myTitle.innerHTML = myValue;
 }
